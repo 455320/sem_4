@@ -185,24 +185,7 @@
 | Mar 5  | Complete UI/UX, Full Revision                         | ⬜      |
 | Mar 10 | Final Prep Complete, Ready for Exams                  | ⬜      |
 
----
 
-## 📖 Notes Structure
-
-Each subject folder contains:
-- `README.md` - Subject overview, outcomes, and resources
-- `unit_X_*.md` - Detailed notes for each unit
-
-Each unit note includes:
-1. **Learning Objectives**
-2. **Key Concepts** with detailed explanations
-3. **Important Definitions**
-4. **Diagrams/Flowcharts**
-5. **Exam Tips**
-6. **Practice Questions**
-7. **Quick Reference Summary**
-
----
 
 ## 🛠️ Tools & Resources
 
@@ -221,19 +204,7 @@ Each unit note includes:
 
 ---
 
-## 📝 Quick Links to Subject Notes
 
-| Subject | Unit 1                                             | Unit 2                                       | Unit 3                                       | Unit 4                                           | Unit 5                                        | Unit 6                                |
-| ------- | -------------------------------------------------- | -------------------------------------------- | -------------------------------------------- | ------------------------------------------------ | --------------------------------------------- | ------------------------------------- |
-| ES      | [📄](./es/unit_1_intro_entrepreneurship.md)         | [📄](./es/unit_2_business_environment.md)     | [📄](./es/unit_3_source_of_finance.md)        | [📄](./es/unit_4_marketing_govt_support.md)       | [📄](./es/unit_5_project_proposal_exit.md)     | -                                     |
-| MCN     | [📄](./mcn/unit_1_networking_essential.md)          | [📄](./mcn/unit_2_addressing.md)              | [📄](./mcn/unit_3_intro_mobile_computing.md)  | [📄](./mcn/unit_4_mobile_network_transport.md)    | [📄](./mcn/unit_5_technologies_trends.md)      | -                                     |
-| CSDF    | [📄](./csdf/unit_1_cybercrime_laws.md)              | [📄](./csdf/unit_2_information_security.md)   | [📄](./csdf/unit_3_malicious_software.md)     | [📄](./csdf/unit_4_forensics_methodology.md)      | [📄](./csdf/unit_5_forensics_investigation.md) | -                                     |
-| FML     | [📄](./fml/unit_1_intro_ml.md)                      | [📄](./fml/unit_2_data_processing.md)         | [📄](./fml/unit_3_model_evaluation.md)        | [📄](./fml/unit_4_ml_algorithms.md)               | [📄](./fml/unit_5_clustering.md)               | [📄](./fml/unit_6_python_libraries.md) |
-| UI/UX   | [📄](./ui_ux/unit_1_foundations_design_thinking.md) | [📄](./ui_ux/unit_2_user_research.md)         | [📄](./ui_ux/unit_3_ia_interaction_design.md) | [📄](./ui_ux/unit_4_visual_design_prototyping.md) | [📄](./ui_ux/unit_5_testing_handoff.md)        | -                                     |
-| MAD     | [📄](./mad/unit_1_intro_android.md)                 | [📄](./mad/unit_2_architecture_components.md) | [📄](./mad/unit_3_ui_event_handling.md)       | [📄](./mad/unit_4_data_storage.md)                | [📄](./mad/unit_5_recent_trends.md)            | -                                     |
-| DM      | [📄](./dm/unit_1_intro_data_mining.md)              | [📄](./dm/unit_2_data_warehousing.md)         | [📄](./dm/unit_3_dm_techniques.md)            | [📄](./dm/unit_4_dw_design.md)                    | [📄](./dm/unit_5_tools_applications.md)        | -                                     |
-
----
 
 > **💡 Pro Tip:** Focus on understanding concepts, not memorization. Practice coding for practical subjects daily. Use the Pomodoro technique (25 min study + 5 min break) for better focus.
 
