@@ -26,61 +26,75 @@
 
 ### Practical 1: NumPy & Matplotlib Operations
 **Unit:** VI | **Hours:** 4
-- Perform various NumPy operations
-- Create visualizations using Matplotlib
+- [ ] Create arrays using `zeros`, `ones`, `arange`, `linspace`, and `random`.
+- [ ] Perform array indexing and slicing (1D and 2D).
+- [ ] Perform element-wise mathematical operations `(+, -, *, /, **)`.
+- [ ] Calculate statistics `(sum, mean, std, min, max)`.
+- [ ] Reshape arrays using `reshape`, `flatten`, and `T`.
+- [ ] Create a Line Plot with title, labels, and grid.
+- [ ] Create a Bar Chart for comparing categories.
+- [ ] Create a Scatter Plot to show correlations.
+- [ ] Create a Histogram to visualize distributions.
+- [ ] Create a Pie Chart for proportions.
 
 ---
 
 ### Practical 2: Pandas - Data Import/Export
 **Unit:** VI | **Hours:** 4
-- Import/export data from Excel, CSV files
-- Perform various Pandas operations
+- [ ] Create DataFrames manually from dictionaries and lists.
+- [ ] Load data using `read_csv`, `read_excel`, and `read_json`.
+- [ ] Export data using `to_csv` (with `index=False`), `to_excel`, and `to_json`.
+- [ ] Explore data: check `shape`, `columns`, `dtypes`, and use `head()`, `info()`, `describe()`.
+- [ ] Select columns (Series) and rows using `loc` (label) and `iloc` (position).
+- [ ] Filter rows based on single and multiple conditions.
+- [ ] Handle missing values: detect with `isnull()`, drop with `dropna()`, fill with `fillna()`.
+- [ ] Group data using `groupby` and aggregate functions.
 
 ---
 
 ### Practical 3: Scikit-learn Introduction
 **Unit:** VI | **Hours:** 4
-- Basic introduction to Scikit-learn
-- Perform various sklearn operations
+- [ ] Load built-in datasets (e.g., `iris`, `digits`).
+- [ ] Split data into training and testing sets using `train_test_split`.
+- [ ] Preprocess data: Scale features using `StandardScaler`.
+- [ ] Preprocess data: Encode targets using `LabelEncoder` (if needed).
+- [ ] Initialize and Train a model (e.g., `KNeighborsClassifier`).
+- [ ] Predict outcomes on the test set.
+- [ ] Evaluate performance using `accuracy_score`.
 
 ---
 
 ### Practical 4: ML Introduction - Predicting Favorite Fruit
 **Unit:** I | **Hours:** 2
-- Understand how machines "learn" from examples
-- Dataset:
-  | Age Group | Gender | Favorite Fruit |
-  | --------- | ------ | -------------- |
-  | 10-15     | Male   | Apple          |
-  | 10-15     | Female | Banana         |
-  | 16-20     | Male   | Orange         |
-  | 16-20     | Female | Mango          |
-  | 21-25     | Male   | Banana         |
-  | 21-25     | Female | Mango          |
-- Generate prediction rules through Python code
+- [ ] Create the dataset (Age Group, Gender, Favorite Fruit) as a DataFrame.
+- [ ] Encode categorical columns (Age, Gender, Fruit) using `LabelEncoder`.
+- [ ] Define Features `X` (Age, Gender) and Target `y` (Fruit).
+- [ ] Train a `DecisionTreeClassifier` on the data.
+- [ ] Implement a function to predict fruit for new inputs (e.g., '16-20', 'Female').
+- [ ] Verify predictions against expected logic.
 
 ---
 
 ### Practical 5: Dataset Preprocessing (Student.csv)
 **Unit:** II | **Hours:** 2
-- Load dataset using `read_csv`
-- Explore data (data types, missing values, basic statistics)
-- Handle missing values using `fillna`
-- Encode categorical data (convert Gender to numeric)
-- Perform Feature Subset Selection
+- [ ] Load `Student.csv` and explore structure/stats.
+- [ ] Check for missing values using `isnull().sum()`.
+- [ ] Fill missing numeric values with the column `mean`.
+- [ ] Fill missing categorical values with the column `mode`.
+- [ ] Encode categorical features (e.g., Gender, Passed) to numbers.
+- [ ] Perform Feature Selection (e.g., Correlation Matrix or SelectKBest).
+- [ ] Export the cleaned and processed data to `Student_Clean.csv`.
 
 ---
 
 ### Practical 6: Confusion Matrix & Performance Metrics
 **Unit:** III | **Hours:** 2
-- Celebrity Guessing Game simulation
-- Build confusion matrix (TP, FP, TN, FN)
-- Calculate metrics:
-  - Accuracy
-  - Kappa Value
-  - Sensitivity & Specificity
-  - Error Rate
-  - Precision, Recall, F-measure
+- [ ] Create/Simulate Actual vs Predicted data arrays.
+- [ ] Generate the Confusion Matrix using `confusion_matrix`.
+- [ ] Extract TN, FP, FN, TP values.
+- [ ] Calculate Metrics Manually: Accuracy, Precision, Recall, F1, Specificity.
+- [ ] Calculate Metrics using Sklearn: `accuracy_score`, `precision_score`, `recall_score`, `f1_score`.
+- [ ] Compare manual calculations with Sklearn results.
 
 ---
 
